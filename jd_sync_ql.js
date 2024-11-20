@@ -56,9 +56,9 @@ async function syncQingLong(key, value, remarks="") {
   try {
     // $.msg(title, "", "同步开始");
     $.isNode() && require("dotenv").config();
-    let QL_HOST = $.isNode() ? process.env.QL_HOST : $.getdata("yuheng_ql_host") || "";
-    let QL_CLIENT_ID = $.isNode() ? process.env.QL_CLIENT_ID : $.getdata("yuheng_ql_clientid") || "";
-    let QL_CLIENT_SECRET = $.isNode() ? process.env.QL_CLIENT_SECRET : $.getdata("yuheng_ql_clientsecret") || "";
+    let QL_HOST = $.isNode() ? process.env.QL_HOST : $.getdata("plaingfish_ql_host") || "";
+    let QL_CLIENT_ID = $.isNode() ? process.env.QL_CLIENT_ID : $.getdata("plaingfish_ql_clientid") || "";
+    let QL_CLIENT_SECRET = $.isNode() ? process.env.QL_CLIENT_SECRET : $.getdata("plaingfish_ql_clientsecret") || "";
     if (!QL_HOST || !QL_CLIENT_ID || !QL_CLIENT_SECRET) {
         $.msg(title, "", "请填写青龙面板地址和密钥");
         return;
@@ -153,7 +153,7 @@ function QingLong(HOST, Client_ID, Client_Secret) {
     async checkLogin() {
       let tokenObj;
       try {
-        tokenObj = JSON.parse($.getdata("yuheng_ql_token") || "{}");
+        tokenObj = JSON.parse($.getdata("plaingfish_ql_token") || "{}");
       } catch (e) {
         console.log(`❌The token is invalid, please re-enter the token`);
         await this.getAuthToken();
@@ -206,7 +206,7 @@ function QingLong(HOST, Client_ID, Client_Secret) {
               token: this.token,
               expiration: expiration * 1e3,
             }),
-            "yuheng_ql_token"
+            "plaingfish_ql_token"
           );
         } else {
           throw message || "Failed to obtain user token.";

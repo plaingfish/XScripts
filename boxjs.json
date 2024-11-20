@@ -65,8 +65,8 @@
         "repo": "https://github.com/chavyleung/scripts/tree/master/follow",
         "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/follow/follow.js",
         "icons": [
-          "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/follow.png",
-          "https://raw.githubusercontent.com/Orz-3/mini/master/Color/follow.png"
+          "https://gcore.jsdelivr.net/gh/sooyaaabo/Loon/Icon/App/Follow.png",
+          "https://gcore.jsdelivr.net/gh/sooyaaabo/Loon/Icon/App/Follow.png"
         ]
       }
     ]

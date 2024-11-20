@@ -6,4 +6,4 @@
 #!icon=https://gcore.jsdelivr.net/gh/sooyaaabo/Loon/Icon/App/Follow.png
 
 [Script]
-cron "12 0 * * *" script-path=https://gcore.jsdelivr.net/gh/chavyleung/scripts@refs/heads/master/follow/follow.js, tag=follow签到
+cron "43 4 * * *" script-path=https://gcore.jsdelivr.net/gh/chavyleung/scripts@refs/heads/master/follow/follow.js, tag=签到
