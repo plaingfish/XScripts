@@ -1,0 +1,9 @@
+#!name=follow签到
+#!desc=follow定时签到任务
+#!openUrl=https://github.com/chavyleung/scripts/blob/master/follow
+#!author=chavyleung
+#!homepage=https://github.com/chavyleung/scripts/blob/master/follow
+#!icon=https://gcore.jsdelivr.net/gh/sooyaaabo/Loon/Icon/App/Follow.png
+
+[Script]
+cron "12 0 * * *" script-path=https://gcore.jsdelivr.net/gh/chavyleung/scripts@refs/heads/master/follow/follow.js, tag=follow签到
