@@ -31,7 +31,7 @@
 [Script]
 type=http-request, pattern=^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig), script-path=https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js, requires-body=false
 
-http-request ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=hhttps://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js
+http-request ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js
 
 
 [MITM]
