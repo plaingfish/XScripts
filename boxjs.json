@@ -1,0 +1,45 @@
+{
+    "id": "plaingfish.app.sub",
+    "name": "plaingfish 脚本订阅",
+    "author": "@plaingfish",
+    "icon": "http://forumupload.ru/uploads/001c/43/ab/2/871059.jpg",
+    "repo": "https://github.com/plaingfish/XScripts",
+    "apps": [
+      {
+        "id": "plaingfish.qinglong",
+        "name": "京东同步青龙",
+        "descs_html": [
+          "<p style='line-height: 24px;padding-top:20px;'>1.配置面板前务必检查抛出的api是否有读写环境变量权限.</p>",
+          "<p style='line-height: 24px;'>2.配置完成点击右上角运行按钮测试连接是否成功.</p>"
+        ],
+        "keys": ["plaingfish_ql_host", "plaingfish_ql_clientid", "plaingfish_ql_clientsecret", "plaingfish_ql_token"],
+        "settings": [
+          {
+            "id": "plaingfish_ql_host",
+            "name": "青龙地址(http://127.0.0.1:5700/)",
+            "val": null,
+            "type": "text",
+            "desc": ""
+          },
+          {
+            "id": "plaingfish_ql_clientid",
+            "name": "CLIENT_ID",
+            "val": null,
+            "type": "text",
+            "desc": ""
+          },
+          {
+            "id": "plaingfish_ql_clientsecret",
+            "name": "CLIENT_SECRET",
+            "val": null,
+            "type": "text",
+            "desc": ""
+          }
+        ],
+        "author": "@plaingfish",
+        "repo": "https://github.com/plaingfish/XScripts",
+        "icons": ["https://raw.githubusercontent.com/plaingfish/XScripts/main/assets/ql.png", "https://raw.githubusercontent.com/plaingfish/XScripts/main/assets/ql.png"],
+        "script": "https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js"
+      }
+    ]
+  }
