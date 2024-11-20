@@ -40,6 +40,34 @@
         "repo": "https://github.com/plaingfish/XScripts",
         "icons": ["https://raw.githubusercontent.com/plaingfish/XScripts/main/assets/ql.png", "https://raw.githubusercontent.com/plaingfish/XScripts/main/assets/ql.png"],
         "script": "https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js"
+      },
+      {
+        "id": "follow",
+        "name": "follow",
+        "keys": ["follow_csrfToken", "follow_cookie"],
+        "settings": [
+          {
+            "id": "follow_csrfToken",
+            "name": "csrfToken",
+            "val": "",
+            "type": "text",
+            "desc": "请输入follow的csrfToken"
+          },
+          {
+            "id": "follow_cookie",
+            "name": "cookie",
+            "val": "",
+            "type": "text",
+            "desc": "请输入follow的cookie"
+          }
+        ],
+        "author": "@gideonsenku",
+        "repo": "https://github.com/chavyleung/scripts/tree/master/follow",
+        "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/follow/follow.js",
+        "icons": [
+          "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/follow.png",
+          "https://raw.githubusercontent.com/Orz-3/mini/master/Color/follow.png"
+        ]
       }
     ]
   }
