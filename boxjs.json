@@ -145,120 +145,65 @@
       "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js"
     },
     {
-      "id": "yuheng.testflight.autoJoin",
-      "name": "TestFlight公测自动加入",
-      "descs_html": [
-        "<p style='margin-left:20px;color:#3498db;'>@mutu佬授权后修改脚本适配其他代理工具</p>",
-        "<a style='margin-left:20px;color:#ff0000;' target='_blank' href='https://raw.githubusercontent.com/githubdulong/Script/master/Auto_join_TF.js'>原脚本</a>"
-      ],
+      "id": "TestFlight",
+      "name": "TestFlight自动加入",
       "keys": [
-        "tf_key",
+        "tf_appIds",
+        "tf_account_key",
         "tf_session_id",
-        "tf_session_digest",
         "tf_request_id",
-        "tf_apple_store_front",
-        "tf_apple_ta_device",
-        "tf_apple_amd_m",
-        "tf_apple_device_model",
-        "tf_user_agent",
-        "tf_app_ids",
-        "tf_loon_count",
-        "tf_interval"
+        "tf_session_digest"
       ],
+      "desc": "详见脚本注释",
       "settings": [
         {
-          "id": "tf_app_ids",
-          "name": "监控的应用ID",
-          "val": null,
-          "type": "textarea",
-          "rows": 5,
-          "desc": "#后代表加入的状态, 0为未加入, 1为已加入"
-        },
-        {
-          "id": "tf_loon_count",
-          "name": "并发数",
-          "val": 1,
+          "id": "tf_appIds",
+          "name": "tf_appIds",
+          "val": "",
           "type": "text",
+          "placeholder": "",
           "desc": ""
         },
         {
-          "id": "tf_interval",
-          "name": "间隔时间(单位: 秒)",
-          "val": 0,
+          "id": "tf_account_key",
+          "name": "tf_account_key",
+          "val": "",
           "type": "text",
-          "desc": ""
-        },
-        {
-          "id": "tf_key",
-          "name": "用户标识",
-          "val": null,
-          "type": "text",
+          "placeholder": "",
           "desc": ""
         },
         {
           "id": "tf_session_id",
-          "name": "SessionId",
-          "val": null,
+          "name": "tf_session_id",
+          "val": "",
           "type": "text",
-          "desc": ""
-        },
-        {
-          "id": "tf_session_digest",
-          "name": "SessionDigest",
-          "val": null,
-          "type": "text",
+          "placeholder": "",
           "desc": ""
         },
         {
           "id": "tf_request_id",
-          "name": "RequestId",
-          "val": null,
+          "name": "tf_request_id",
+          "val": "",
           "type": "text",
+          "placeholder": "",
           "desc": ""
         },
         {
-          "id": "tf_apple_store_front",
-          "name": "AppleStoreFront",
-          "val": null,
+          "id": "tf_session_digest",
+          "name": "tf_session_digest",
+          "val": "",
           "type": "text",
-          "desc": ""
-        },
-        {
-          "id": "tf_apple_ta_device",
-          "name": "AppleTaDevice",
-          "val": null,
-          "type": "text",
-          "desc": ""
-        },
-        {
-          "id": "tf_apple_amd_m",
-          "name": "AppleAMDM",
-          "val": null,
-          "type": "text",
-          "desc": ""
-        },
-        {
-          "id": "tf_apple_device_model",
-          "name": "AppleDeviceModel",
-          "val": null,
-          "type": "text",
-          "desc": ""
-        },
-        {
-          "id": "tf_user_agent",
-          "name": "UserAgent",
-          "val": null,
-          "type": "text",
+          "placeholder": "",
           "desc": ""
         }
       ],
-      "author": "@yuheng",
-      "repo": "https://github.com/Yuheng0101/X",
+      "script": "https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TestFlight.js",
+      "author": "@mcdasheng",
+      "repo": "https://github.com/mcdasheng",
       "icons": [
-        "https://raw.githubusercontent.com/githubdulong/Script/master/Images/testflight.png",
-        "https://raw.githubusercontent.com/githubdulong/Script/master/Images/testflight.png"
-      ],
-      "script": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/AutoJoinTF.js"
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png",
+        "https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png"
+      ]
     }
 
     ]
