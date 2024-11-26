@@ -29,8 +29,8 @@
         "config": "0 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, tag=网上国电费查询, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.jpg, enabled=false"
       },
       {
-        "config": "0 * * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TestFlight.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true",
-        "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/TestFlight.conf,tag=TestFlight自动加入获取appId"
+        "config": "0 * * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/AutoJoinTF.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true",
+        "addons": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/AutoJoinTF.js,tag=TestFlight自动加入获取appId"
       },
       {
         "config": "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png, enabled=true",
