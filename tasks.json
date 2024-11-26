@@ -16,6 +16,29 @@
       {
         "config": "59 2 * * * https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js, tag=京东ck同步, img-url=https://github.com/Yuheng0101/X/blob/main/Assets/ql.png?raw=true, enabled=true",
         "addons": "https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js, tag=京东ck同步, opt-parser=true"
+      },
+      {
+        "config": "25 1 * * * https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/zhixuan.js, tag=知轩藏书签到,img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Zxcs.png, enabled=false",
+        "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/zxcs.conf, tag=知轩藏书获取token"
+      },
+      {
+        "config": "0 7,11 * * * https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/apps/AliYunDrive.png, enabled=false",
+        "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/aliiyun.conf, tag=阿里云获取token"
+      },
+      {
+        "config": "0 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/95598/95598.js, tag=网上国电费查询, img-url=https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Wsgw.jpg, enabled=false"
+      },
+      {
+        "config": "0 * * * * https://raw.githubusercontent.com/MCdasheng/QuantumultX/main/Scripts/myScripts/TestFlight.js, tag=TestFlight自动加入, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/testflight.png, enabled=true",
+        "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/TestFlight.conf,tag=TestFlight自动加入获取appId"
+      },
+      {
+        "config": "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png, enabled=true",
+        "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/bilibili.conf, tag=b站签到获取token"
+      },
+      {
+        "config": "0 0 12 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js, tag=美团签到, img-url=https://qxnav.com/rules/QuantumultX/img/meituan.png, enabled=true",
+        "addons": "https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/rewrite/meituan.checkin.conf, tag=美团签到获取token"
       }
     ]
 }
