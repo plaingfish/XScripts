@@ -3,7 +3,7 @@
     "description": "plaingfish自用任务订阅",
     "task": [
       {
-        "config": "30 10 * * * https://gcore.jsdelivr.net/gh/chavyleung/scripts@refs/heads/master/follow/follow.js, tag=follow签到, img-url=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App/Follow.png, enabled=true"
+        "config": "30 10 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/follow/follow.js, tag=follow签到, img-url=https://raw.githubusercontent.com/sooyaaabo/Loon/main/Icon/App/Follow.png, enabled=true"
       },
       {
         "config": "52 11 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/52pojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/52pojie.png, enabled=true",
