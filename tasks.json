@@ -1,0 +1,21 @@
+{
+    "name": "plaingfish任务订阅",
+    "description": "plaingfish自用任务订阅",
+    "task": [
+      {
+        "config": "30 10 * * * https://gcore.jsdelivr.net/gh/chavyleung/scripts@refs/heads/master/follow/follow.js, tag=follow签到, img-url=https://gcore.jsdelivr.net/gh/sooyaaabo/Loon/Icon/App/Follow.png, enabled=true"
+      },
+      {
+        "config": "52 11 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/52pojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/52pojie.png, enabled=true",
+        "addons": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/52pojie.js, tag=吾爱破解获取token, opt-parser=true"
+      },
+      {
+        "config": "0 1 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/Bdyy/bdyy.js, tag=波点音乐自动签到, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/05/b9/57/05b9577c-3773-cd2b-5a99-49c0dc3f331d/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144.png, enabled=true",
+        "addons": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/Bdyy/bdyy.conf, tag=波点音乐获取token, opt-parser=true"
+      },
+      {
+        "config": "59 2 * * * https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js, tag=京东ck同步, img-url=https://github.com/Yuheng0101/X/blob/main/Assets/ql.png?raw=true, enabled=true",
+        "addons": "https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.conf, tag=京东ck同步, opt-parser=true"
+      }
+    ]
+}
