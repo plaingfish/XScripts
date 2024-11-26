@@ -1,2 +1,2 @@
 # XScripts
- 自用Loon脚本
+ 自用QuantumultX、Loon脚本
