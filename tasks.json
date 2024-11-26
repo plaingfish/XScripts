@@ -15,7 +15,7 @@
       },
       {
         "config": "59 2 * * * https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js, tag=京东ck同步, img-url=https://github.com/Yuheng0101/X/blob/main/Assets/ql.png?raw=true, enabled=true",
-        "addons": "https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.conf, tag=京东ck同步, opt-parser=true"
+        "addons": "https://raw.githubusercontent.com/plaingfish/XScripts/main/jd_sync_ql.js, tag=京东ck同步, opt-parser=true"
       }
     ]
 }
