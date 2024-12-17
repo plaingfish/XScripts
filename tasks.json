@@ -35,6 +35,10 @@
       {
         "config": "10 9 * * * https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js, tag=B站每日等级任务, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/bilibili.png, enabled=true",
         "addons": "https://gist.githubusercontent.com/Sliverkiss/b564306f40741c8d549409fbe6c2aae9/raw/bilibili.conf, tag=b站签到获取token"
+      },
+      {
+        "config": "0 3 * * * https://gist.githubusercontent.com/Sliverkiss/94ae2449c07f78e6ea44277c831a58c0/raw/southPlus.js, tag=southplus签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/southplus.png, enabled=false",
+        "addons": "https://gist.githubusercontent.com/Sliverkiss/94ae2449c07f78e6ea44277c831a58c0/raw/southPlus.js, tag=southplus获取token"
       }
     ]
 }
