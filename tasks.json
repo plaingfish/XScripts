@@ -38,14 +38,11 @@
       },
       {
         "config": "0 3 * * * https://gist.githubusercontent.com/Sliverkiss/94ae2449c07f78e6ea44277c831a58c0/raw/southPlus.js, tag=southplus签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/southplus.png, enabled=false",
-        "addons": "https://gist.githubusercontent.com/Sliverkiss/94ae2449c07f78e6ea44277c831a58c0/raw/southPlus.js, tag=southplus获取token"
+        "addons": "https://gist.githubusercontent.com/Sliverkiss/94ae2449c07f78e6ea44277c831a58c0/raw/southPlus.js, tag=southplus获取token, opt-parser=true"
       },
       {
         "config": "0 5 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/cloud139/dist/cloud139.js, tag=中国移动云盘签到, img-url=https://github.com/Orz-3/mini/blob/master/Alpha/10086.png?raw=true, enabled=false",
         "addons": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/cloud139/dist/capture.js, tag=中国移动云盘获取token"
-      },
-      {
-        "config": "6 9 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/moyu.js, tag=摸鱼来啦, img-url=https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/67/04/ff/6704ff4c-b49b-de91-70ac-201c62d5296f/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/144x144bb.png, enabled=true"
       }
     ]
 }
