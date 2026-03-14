@@ -39,6 +39,10 @@
       {
         "config": "0 3 * * * https://gist.githubusercontent.com/Sliverkiss/94ae2449c07f78e6ea44277c831a58c0/raw/southPlus.js, tag=southplus签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/southplus.png, enabled=false",
         "addons": "https://gist.githubusercontent.com/Sliverkiss/94ae2449c07f78e6ea44277c831a58c0/raw/southPlus.js, tag=southplus获取token"
+      },
+      {
+        "config": "0 3 * * * https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/cloud139/dist/cloud139.js, tag=中国移动云盘签到, img-url=https://github.com/Orz-3/mini/blob/master/Alpha/10086.png?raw=true, enabled=false",
+        "addons": "https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/cloud139/dist/capture.js, tag=中国移动云盘获取token"
       }
     ]
 }
