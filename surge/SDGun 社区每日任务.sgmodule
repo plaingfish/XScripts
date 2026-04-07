@@ -1,0 +1,15 @@
+#!name=SDGun 社区每日任务
+#!desc=打开 App 后自动获取 Cookie, 无通知
+#!category=xream
+#!arguments=cronexp:"0 10,14,18 * * *",reply_own_thread_only:true
+#!arguments-desc=cronexp 定时任务\n    └ 默认为 每日 10 点, 14 点, 18 点\n\nreply_own_thread_only 是否只回复自己发的帖\n    ├ true: 优先使用最新一次成功发帖 id 回帖；若本次还要发帖，则先发帖再回复自己\n    └ false: 按现有逻辑回复帖子列表
+
+[Script]
+
+SDGun 社区每日任务 = type=cron, cronexp="{{{cronexp}}}", script-path=scripts/sdgun_daily_tasks.js, timeout=600, argument="reply_own_thread_only={{{reply_own_thread_only}}}", engine=jsc
+
+SDGun 社区获取 Cookie = type=http-response, pattern=^https:\/\/mag1\.sdgun\.net\/mag\/user\/v1\/User\/getUserInfo, script-path=sdgun_daily_tasks.js, requires-body=true, timeout=600, engine=jsc
+
+[MITM]
+
+hostname = %APPEND% mag1.sdgun.net
